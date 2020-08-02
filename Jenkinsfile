@@ -3,7 +3,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'set'
+                sh './gradlew build'
+            }
+        }
+        stage('Run') {
+            steps {
+                sh '.gradlew run'
             }
         }
     }
