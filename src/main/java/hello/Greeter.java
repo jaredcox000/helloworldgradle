@@ -4,6 +4,6 @@ public class Greeter
     {
     public String sayHello ()
         {
-        return 0;
+        return "Eat dirt";
         }
     }
